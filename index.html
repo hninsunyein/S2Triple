@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js.js"></script>
+	<script src="includes/js/js.js"></script>
+	<script src="common/js/common.js"></script>
+	<link href="css.css" rel="stylesheet">
+	<link href="includes/css/css.css" rel="stylesheet">
+	<link href="common/css/base.css" rel="stylesheet">
+	<link rel="stylesheet" href="common/css/css.css">
+    <link rel="stylesheet" href="common/css/spacing.css">
+    <link rel="stylesheet" href="common/css/text.css">
+	<link rel="stylesheet" href="common/css/color.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+<body onload="main_onload_fun()">
+	<!--header navigation-->
+	<div class="header_div">
+
+		<!-- header_image-->
+		<div class="header_img_div">
+			<div class="header_img"></div> 
+			<div class="header_img_txt_container">
+				<p class="header_img_txt1">KOIZUMI</p>
+				<p class="header_img_txt2">Business Solution</p>
+			</div>
+		</div><!--end  header_image -->
+
+	
+		<!-- header content-->
+		<div class="header_content_div">
+
+			<!--strangth -->
+			<div class="grid_05" id="nav_con"> 
+					<p class="header_content_txt"><a href="#">STRANGTH</a></p>
+					<div id="nav_con_bar"></div>
+			</div><!--end strangth-->
+
+			<!--service -->
+			<div class="grid_05" id="nav_con"> 
+					<p class="header_content_txt"><a href="#">SERVICE</a></p>
+					<div id="nav_con_bar"></div>
+			</div><!--end sevice-->
+
+			
+			<!--event -->
+			<div class="grid_05" id="nav_con"> 
+					<p class="header_content_txt"><a href="#">EVENT</a></p>
+					<div id="nav_con_bar"></div>
+			</div><!--end sevice-->
+			
+			<!--company -->
+			<div class="grid_05" id="company_nav" onmouseover="com_nav_mouseover()" onmouseout="com_nav_mouseout()">  
+				<p class="header_content_txt">COMPANY</p>
+				<div id="header_drop_down_arrow" ><object data="common/img/arrow.svg"  type="image/svg+xml"></object> </div> <!--drop down arrow svg-->
+				<!--company drop down-->
+				<div class="company_container" id="company_container">
+					<div class="company_drop_down_items">
+						<a href="message/index.html"><p>トップメッセージ</p></a>
+					</div>
+					<div class="company_drop_down_items">
+						<p>会社情報</p>
+					</div>
+					<div class="company_drop_down_items">
+						<p>小泉製麻グループの歴史</p>
+					</div>
+				</div><!--end company drop down-->
+			</div><!--end company-->
+			
+			<!--contact -->
+			<div class="grid_05"> 
+				<p class="header_content_txt header_contact">CONTACT</p>
+			</div><!--end contact-->
+			
+		</div><!--end header content-->
+
+	</div><!--end header navigation-->
+
+
+
+
+	<!--main body-->
+	<div class="main_body">
+		<!--main image-->
+		<div class="main_img">
+			<p class="main_img_txt1" id="main_img_txt1">Think about THINK OUT OF THE BOX</p>
+			<p class="main_img_txt2" id="main_img_txt2">企業を想い、考える</p>
+		</div><!--end main iamge-->
+
+		<!--main card-->
+		<div class="main_card">
+
+			<!--first row-->
+			<div class="row main_card_row">
+				<div class="grid_02 main_card_col1">
+						<p class="main_card_title_txt1" id="main_card_title_txt1">INFORMATION</p>
+						<p class="main_card_title_txt2" id="main_card_title_txt2">お知らせ</p>
+				</div>
+				<div class="grid_02 main_card_col2">
+						<p class="main_card_vm_txt">VIEW MORE<object class="main_card_vm_icon" data="common/img/arrow.svg"  type="image/svg+xml"></object> </p>
+				</div>
+			</div><!--end first row-->
+
+			<!--second row-->
+			<div class="row main_card_row">
+				<div class="grid_02 main_card_col1">
+					<div class="main_card_date">
+						<p class="main_card_date_txt1">2019.10.16</p> <!--date-->
+						<p class="main_card_date_txt2">お知らせ</p>	<!--release or notices or news release-->
+					</div>
+					<p class="main_card_lk">アクタス「101灯のあかり展」ニュースリリースしました。</p><!-- related link-->
+				</div>
+				<div class="grid_02 main_card_col2">
+						<div class="main_card_date">
+								<p class="main_card_date_txt1">2019.10.16</p> <!--date-->
+								<p class="main_card_date_txt2">お知らせ</p>	<!--release or notices or news release-->
+						</div>
+						<p class="main_card_lk">台風19号による被害を受けられた皆様に心よりお見舞い申し上げます。</p><!-- related link-->
+				</div>
+			</div><!--end second row-->
+
+			<!--third row-->
+			<div class="row main_card_row">
+					<div class="grid_02 main_card_col1">
+						<div class="main_card_date">
+							<p class="main_card_date_txt1">2019.09.24</p> <!--date-->
+							<p class="main_card_date_txt2">ニュースリリース</p>	<!--release or notices or news release-->
+						</div>
+						<p class="main_card_lk">小泉製麻グループ「須磨海岸の海ごみゼロを目指して」ニュースリリースしました。</p><!-- related link-->
+					</div>
+					<div class="grid_02 main_card_col2">
+							<div class="main_card_date">
+									<p class="main_card_date_txt1">2019.08.01</p> <!--date-->
+									<p class="main_card_date_txt2">お知らせ</p>	<!--release or notices or news release-->
+							</div>
+							<p class="main_card_lk">2019年　夏季休業のお知らせ</p><!-- related link-->
+					</div>
+				</div><!--end third row-->
+
+				<!--foruth row-->
+				<div class="row main_card_row">
+					<div class="grid_02 main_card_col1">
+						<div class="main_card_date">
+							<p class="main_card_date_txt1">2019.09.24</p> <!--date-->
+							<p class="main_card_date_txt2">ニュースリリース</p>	<!--release or notices or news release-->
+						</div>
+						<p class="main_card_lk">小泉製麻㈱　「バリオスネット」　ニュースリリースしました。</p><!-- related link-->
+					</div>
+					<div class="grid_02 main_card_col2">
+							<div class="main_card_date">
+									<p class="main_card_date_txt1">2019.08.01</p> <!--date-->
+									<p class="main_card_date_txt2">ニュースリリース</p>	<!--release or notices or news release-->
+							</div>
+							<p class="main_card_lk">神戸六甲ボウル　「親子二人三脚　プロボウラーを目指す中学２年生」ニュースリリースしました。</p><!-- related link-->
+					</div>
+				</div><!--end fourth row-->
+
+		</div><!--end main card-->
+
+	</div><!--end main body-->
+
+	<!-- ============== Start Strength Page ==================-->
+	<section class="strength-container">
+		  <h3 class="text-center line-spacing spwm_font32 text-cyan">S<span class="spwm_font_normal">TRENGTH</span></h3>
+		  <p class="text-center ">会社のつよみ</p>
+		  
+		  <div class="row line-spacing strength-container">
+				<div class="grid_01">
+					<div class="grid_04">
+						<div class="strength-wrap upward">
+							<img src="common/img/icon_01.svg">
+							<h4 class="line-spacing">チャレンジ精</h4>
+						   
+						</div>
+					</div>
+					<div class="grid_04 " >
+						<div class="strength-wrap downward " style="margin: 50px 0px;">
+							<img src="common/img/icon_02.svg" >
+							<h4 class="line-spacing" >精神レンジ</h4>
+						</div>
+					</div>
+					<div class="grid_04">
+						<div class="strength-wrap upward">
+							<img src="common/img/icon_03.svg" >
+							<h4 class="line-spacing">ャレンジ精神</h4>
+								  
+						</div>
+					</div>
+					<div class="grid_04 "> 
+						<div class="strength-wrap downward " style="margin: 50px 0px;"> 
+							<img src="common/img/icon_04.svg">
+							<h4 class="line-spacing "> ャジ精神</h4>
+						</div>
+					</div>
+				</div>
+			  
+			</div>
+		  <div class="mx-auto">
+				<p class="main_card_vm_txt" style="text-align: center !important; margin:-50px 0px 0px 0px;">VIEW MORE<object class="main_card_vm_icon" data="common/img/arrow.svg"  type="image/svg+xml"></object> </p>
+		  </div>
+	</section>
+	<!-- =============== End Strength Page ==================-->
+
+	  <!-- ===============Start Service Page ==================-->
+	  <section class="service">
+			<div class="bg">
+				<div class="content-inner-ex">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-5">
+								<div class="service-detail">
+									<h3 class="line-spacing spwm_font32 mt30 text-cyan">S<span class="spwm_font_normal">ERVICE</span></h3>
+									<span class="line-spacing">サービス</span>
+									<h4 style="margin: 30px 0px;">掲げるビジョンのために、寄り添い、導く。</h4>
+									<p style="line-height:1.7rem;font-weight: 500;">会社法制などの改正内容や各種助成金の情報収集から、給与・人事管理等に関する定型業務や採用の運用など、さらに、会社における健康経営をサポート。
+									<br>
+									また、ターゲットに応じた適切な広報媒体を利用し企業ブランディングをサポートさせていただきます。</p>
+									<p class="main_card_vm_txt" style="text-align: center !important; float: left; margin: 30px 0px;">VIEW MORE<object class="main_card_vm_icon" data="common/img/arrow.svg"  type="image/svg+xml"></object> </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ===============End Service Page ====================-->
+
+		<!--main card-->
+	<div class="main_card">
+			<!--first row-->
+				<div class="row main_card_row">
+					<div class="grid_02 main_card_col1">
+						<h3 class="line-spacing spwm_font32 text-cyan">E<span class="spwm_font_normal">VENT</span></h3>
+						<p claas="main_card_title_txt2">イベント</p>
+					</div>
+					<div class="grid_02 main_card_col2">
+							<p class="main_card_vm_txt">VIEW MORE<object class="main_card_vm_icon" data="common/img/arrow.svg"  type="image/svg+xml"></object> </p>
+					</div>
+				</div><!--end first row-->
+		
+			<!--second row-->
+			<div class="row main_card_row">
+				<div class="grid_02 main_card_col1">
+					<div class="main_card_date">
+						<p class="main_card_date_txt1">2019.10.16</p> <!--date-->
+						<p class="main_card_date_txt2">イベント</p>	<!--release or notices or news release-->
+					</div>
+						<p class="main_card_lk">小泉製麻グループは、10月８日　須磨海岸清掃活動を行ないます。</p><!-- related link-->
+				</div>
+				<div class="grid_02 main_card_col2">
+					<div class="main_card_date">
+						<p class="main_card_date_txt1">2019.10.16</p> <!--date-->
+						<p class="main_card_date_txt2">イベント</p>	<!--release or notices or news release-->
+					</div>
+						<p class="main_card_lk">小泉製麻グループは、10月８日　須磨海岸清掃活動を行ないます。</p><!-- related link-->
+				</div>
+			</div><!--end second row-->
+		
+			<!--third row-->
+			<div class="row main_card_row">
+				<div class="grid_02 main_card_col1">
+					<div class="main_card_date">
+						<p class="main_card_date_txt1">2019.09.24</p> <!--date-->
+						<p class="main_card_date_txt2">イベント</p>	<!--release or notices or news release-->
+					</div>
+						<p class="main_card_lk">小泉製麻グループは、10月８日　須磨海岸清掃活動を行ないます。</p><!-- related link-->
+					</div>
+				<div class="grid_02 main_card_col2">
+					<div class="main_card_date">
+						<p class="main_card_date_txt1">2019.08.01</p> <!--date-->
+						<p class="main_card_date_txt2">イベント</p>	<!--release or notices or news release-->
+					</div>
+						<p class="main_card_lk">小泉製麻グループは、10月８日　須磨海岸清掃活動を行ないます。</p><!-- related link-->
+				</div>
+			</div><!--end third row-->
+		   
+		</div>
+		<!--end main card-->
+		 <!-- ================Start Company Page =======================-->
+		 <div class="company-container inline-flex mt30 mb30">
+				<div class="company-detail pl20">
+					<h3 class="line-spacing spwm_font32 mt30 text-cyan">C<span class="spwm_font_normal">OMPANY</span></h3>
+					<span class="spwm_font12 spwm_font_bold">会社情報</span><br>
+					<div class="company-nav">
+						<div>
+							<a href="#" class="line_cap mb30">トップメッセージ</a>
+						</div>
+						<div>
+							<a href="#" class="line_cap mb30">会社情報</a>
+						</div>
+						<div>
+							<a href="#" class="line_cap mb30">小泉製麻グループの歴史</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<img src="common/img/img-company.jpg">
+				</div>
+			   
+		</div>
+		<!-- ================End Company Page =========================-->    
+
+
+
+
+
+
+		<!--Start of Blog-->
+	<div style="padding: 30px 0px;">
+		<!--    Start of Blog Text-->
+		<div class="bg-blog-color text-center " style="padding-top: 20px;">
+				<h3 class="tc_font">B<span class="tc_normal_font" style="color: black;">LOG</span></h3>
+				<h6 style="padding-top: 20px;">ブログ</h6>
+			</div>
+			<!--    End of Blog Text-->
+			<!--Start of Card View-->
+			<div class="pt-16" style="height:400px;">
+			
+			
+				<div class="grid_04">
+					<div class="mx-10">
+						<img src="img/sample1.PNG" alt="">
+						<p class="date"> 2019.10.08</p>
+			
+						<p class="short-text">須磨海岸でクリーン作戦</p>
+						<button class="btn-dark-blue">クリックして</button>
+						<button class="btn-dark-blue">こちらをクリック</button>
+					</div>
+			
+				</div>
+				<div class="grid_04">
+					<div class="mx-10">
+						<img src="img/sample.PNG" alt="">
+						<p class="date"> 2019.10.08</p>
+			
+						<p class="short-text">須磨海岸でクリーン作戦</p>
+						<button class="btn-dark-blue">クリックして</button>
+						<button class="btn-dark-blue">こちらをクリック</button>
+					</div>
+			
+				</div>
+				<div class="grid_04">
+					<div class="mx-10">
+						<img src="img/sample2.PNG" alt="">
+						<p class="date"> 2019.10.08</p>
+			
+						<p class="short-text">須磨海岸でクリーン作戦</p>
+						<button class="btn-dark-blue">クリックして</button>
+						<button class="btn-dark-blue">こちらをクリック</button>
+					</div>
+			
+				</div>
+				<div class="grid_04">
+					<div class="mx-10">
+						<img src="img/sample3.PNG" alt="">
+						<p class="date"> 2019.10.08</p>
+			
+						<p class="short-text">須磨海岸でクリーン作戦</p>
+						<button class="btn-dark-blue">クリックして</button>
+						<button class="btn-dark-blue">こちらをクリック</button>
+					</div>
+			
+				</div>
+			
+			
+			</div>
+			<!--End of Card View-->
+			
+			<div class="mx-auto" style="position: relative;">
+					<p class="main_card_vm_txt" style="text-align: center !important; margin:-50px 0px 0px 0px;">VIEW MORE<object class="main_card_vm_icon" data="common/img/arrow.svg"  type="image/svg+xml"></object> </p>
+			</div>
+		</div>
+	<!--End of Blog-->
+
+
+	<!--    Start of contact-->
+	<div class="img">
+
+		<div style="display: inline-flex;width:100% " class="text text-center">
+			<!--    Left-->
+			<div style="display: block; width:50%; padding : 10% 0; text-align: left ;padding-left: 80px"  >
+				<h3 class="tc_font">C<span class="tc_normal_font">ONTACT</span></h3>
+				<div class="div-10"></div>
+				<p class="tc_small_font">お問い合わせ</p>
+				<div class="div-20"></div>
+				<p class="tc_small_font">This is sample and Japan Language</p>
+			</div>
+			<!--    Left-->
+			<!--    Right-->
+			<div class="mx-auto" style="margin:200px 0px 0px 200px;">
+					<p class="main_card_vm_txt" style="text-align: center !important; margin:-50px 0px 0px 0px; border-bottom: 1.5px solid white;">VIEW MORE<object class="main_card_vm_icon" data="common/img/white_arw.svg"  type="image/svg+xml"></object> </p>
+			  </div>
+			<!--    Right-->
+		</div>
+	
+	</div>
+	<!--    End of contact-->
+	   
+
+
+	<!--Start of Footer-->
+<div class="bg-footer ">
+		<!--   Start of First-->
+		<div class="grid_03" style="padding-left: 100px;">
+			<a href="/"> <img src="includes/img/company.PNG" alt=""></a>
+			<p class="con-text">Koizumi Business Solution Co., Ltd.</p>
+			<p class="con-text">Kobe City Kashiwa Ward New Resident South 1-2-1</p>
+			<div class="flex">
+				<p class="con-text" style="font-weight: normal">TEL.</p>
+				<a href="tel:078414148" class="phone-text">
+					<p>078-4141-48</p>
+				</a>
+			</div>
+		</div>
+		<!--   End of First-->
+		<!--Start of Second  -->
+		<div class="grid_03 flex justify-around">
+			<div class="block pl-2 left">
+	
+				<div class="pt-3"><a href="/service" class="link-bold">STRENGTH</a></div>
+				<div class="pt-3"><a href="/service" class="link-bold">SERVICES</a></div>
+			</div>
+			<div class="block left">
+				<div class="link-bold pt-3">COMPANY</div>
+				<div class="pt-3"><a href="/service" class="normal-bold">top message</a></div>
+				<div class="pt-3"><a href="/service" class="normal-bold">Company Profile</a></div>
+				<div class="pt-3"><a href="/service" class="normal-bold">History</a></div>
+				<div class="pt-3"><a href="/service" class="normal-bold">Company motto</a></div>
+			</div>
+		</div>
+		<!--End of Second  -->
+	<!--Start of Third-->
+		<div class="grid_03 flex justify-around left" >
+			<div class="block pl-2"  >
+	
+				<div class="pt-3"><a href="/service" class="normal-bold">Management Philosophy</a></div>
+				<div class="pt-3"><a href="/service" class="normal-bold">Code of conduct</a></div>
+				<div class="pt-3"><a href="/service" class="normal-bold">compliance</a></div>
+				<div class="pt-3"><a href="/service" class="normal-bold">Koizumi Hemp Group</a></div>
+			</div>
+			<div class="block">
+				<div class="link-bold pt-3"><a href="/service" class="link-bold ">Information</a></div>
+				<div class="link-bold pt-3"><a href="/service" class="link-bold ">EVENT</a></div>
+				<div class="link-bold pt-3"><a href="/service" class="link-bold ">BLOG</a></div>
+				<!-- <hr style="margin-top: 20px;padding-right: 40px;"> -->
+				<div style="width: 30px; height: 3px; background-color: #fff; margin-top: 20px;"></div>
+				<div class="link-bold pt-3"><a href="/service" class="normal-bold ">PRIVACY POLICY</a></div>
+			</div>
+		</div>
+	<!--End of Third-->
+	<!--Start of  Fourth-->
+		<div class="grid_03 left">
+			<button class="btn-blue">CONTACT</button>
+		</div>
+	<!--End of  Fourth-->
+	
+	
+	</div>
+	<!--End of Footer-->
+
+
+	<!-- start of license-->
+	<div class="bg-license">
+			<i class="fas fa-copyright"></i> THE KOIZUMI BUSINESS SOLUTION CO., LTD.
+	</div>
+	<!-- end of license-->
+
+
+
+		<script src="common/js/common.js"></script>
+
+
+</body>
+</html>
